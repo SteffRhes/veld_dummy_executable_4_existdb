@@ -1,0 +1,16 @@
+x-veld:
+  executable:
+    about:
+      description: "dummy veld for testing and showcasing"
+    storage:
+      path: /veld/storage/ 
+
+services:
+  veld:
+    build: .
+    ports:
+      - 8080:8080
+      - 8443:8443
+#    volumes:
+#      - ./existdb_volume/:/exist/data
+
