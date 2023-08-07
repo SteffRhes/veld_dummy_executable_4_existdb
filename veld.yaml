@@ -2,8 +2,10 @@ x-veld:
   executable:
     about:
       description: "dummy veld for testing and showcasing"
-    storage:
+    output:
       path: /exist/data
+      format: "existdb storage"
+      kind: "dummy data"
 
 services:
   veld:
